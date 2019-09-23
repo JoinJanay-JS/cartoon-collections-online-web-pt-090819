@@ -1,4 +1,7 @@
+require "pry"
+
 def roll_call_dwarves # code an argument here
+ binding.pry
   i = 0 
   while i < array.length 
   puts "#{i+1}.#{array[i]}"
