@@ -1,6 +1,6 @@
 require "pry"
 dwarves =  ["Doc", "Dopey", "Bashful", "Grumpy"]
-def roll_call_dwarves # code an argument here
+def roll_call_dwarves(array)
   i = 0 
   while i < array.length 
   puts "#{i+1}.#{array[i]}"
@@ -8,7 +8,7 @@ def roll_call_dwarves # code an argument here
   end
 end 
 
-def summon_captain_planet # code an argument here
+def summon_captain_planet(array)
   newArray = []
   i = 0 
   while i < array.length
@@ -18,7 +18,7 @@ def summon_captain_planet # code an argument here
   newArray
 end
 
-def long_planeteer_calls(long_call)
+def long_planeteer_calls(array)
   i = 0 
   if array.any? {|i| i.length > 4}
     return true 
@@ -28,7 +28,7 @@ def long_planeteer_calls(long_call)
   end
 end
 
-def find_the_cheese# code an argument here
+def find_the_cheese(array)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
